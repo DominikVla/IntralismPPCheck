@@ -9,3 +9,12 @@
 
 # Commands
 - /calculate {score: } {maxscore: } {misses: } {accuracy: } {maxpoints: } - Calculates the how much PP a play is worth
+
+# Important
+For the bot to function you need to be able to obtain your application Token, Client ID and Guild Id (Server ID)
+- Application Token goes into the .env file || Guide to get application token: https://www.writebots.com/discord-bot-token/
+- Client and Guild ID go into functions/handelCommands.js on lines 5 & 6 ||
+To get the IDs do the following:
+1. Make sure Developer mode is on (User Settings > Advanced)
+2. Go onto a server with the Bot, right click the bot and press copy ID. This gives the Client ID.
+3. Right click the server you're currently in and press copy ID. This is the Guild ID.
