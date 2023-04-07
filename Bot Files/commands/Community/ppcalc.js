@@ -7,12 +7,12 @@ module.exports = {
     .setDescription('Calculates the amount of PP a play will give.')
     .addStringOption(option =>
         option.setName('score')
-            .setDescription("Score of the play done")
+            .setDescription("Score of the play done (DO NOT INCLUDE COMMAS)")
             .setRequired(true))
 
     .addStringOption(option =>
         option.setName('maxscore')
-            .setDescription("Highest Score the map can give")
+            .setDescription("Highest Score the map can give (DO NOT INCLUDE COMMAS)")
             .setRequired(true))
 
     .addStringOption(option =>
@@ -22,7 +22,7 @@ module.exports = {
 
     .addStringOption(option =>
         option.setName('accuracy')
-            .setDescription("Acccuracy of the play")
+            .setDescription("Acccuracy of the play (DO NOT INCLUDE PERCENT SYMBOL)")
             .setRequired(true))
 
     .addStringOption(option =>
