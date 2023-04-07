@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "minecraft-server-util": "^5.4.0"
+  },
+  "name": "servcheck",
+  "version": "4.0.0",
+  "description": "Check the mc server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Kyoko",
+  "license": "ISC"
+}
