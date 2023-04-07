@@ -18,3 +18,7 @@ To get the IDs do the following:
 1. Make sure Developer mode is on (User Settings > Advanced)
 2. Go onto a server with the Bot, right click the bot and press copy ID. This gives the Client ID.
 3. Right click the server you're currently in and press copy ID. This is the Guild ID.
+
+
+# To-do
+- Clear inputs of any specially characters (commas in numbers will be a main target)
